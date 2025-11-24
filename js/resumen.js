@@ -12,9 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     configurarEventosFiltros();
 });
 
-// ----------------------
-// Carga de datos
-// ----------------------
 function cargarDatos() {
     fetch(API_URL)
         .then(respuesta => respuesta.json())
@@ -33,9 +30,6 @@ function cargarDatos() {
         });
 }
 
-// ----------------------
-// KPIs
-// ----------------------
 function pintarKPIs() {
     const kpiSection = document.getElementById('kpi-section');
     if (!kpiSection) return;
@@ -65,9 +59,6 @@ function pintarKPIs() {
     `;
 }
 
-// ----------------------
-// Pintar productos
-// ----------------------
 function pintarProductos(lista) {
     const contenedor = document.getElementById('productos-contenedor');
     if (!contenedor) return;
@@ -116,9 +107,6 @@ function pintarProductos(lista) {
     configurarEventosTarjetas();
 }
 
-// ----------------------
-// Filtros
-// ----------------------
 function configurarEventosFiltros() {
     const filtroLiga = document.getElementById('filtro-liga');
     const ordenPrecio = document.getElementById('orden-precio');
@@ -154,9 +142,6 @@ function aplicarFiltros() {
     pintarProductos(productosFiltrados);
 }
 
-// ----------------------
-// Eventos en tarjetas (detalle + favoritos)
-// ----------------------
 function configurarEventosTarjetas() {
     const botonesDetalle = document.querySelectorAll('.sv-btn-detalle');
     const botonesFavorito = document.querySelectorAll('.sv-btn-favorito');
@@ -184,9 +169,6 @@ function configurarEventosTarjetas() {
     });
 }
 
-// ----------------------
-// Gestión de favoritos con localStorage
-// ----------------------
 function obtenerFavoritos() {
     const datos = localStorage.getItem(LS_FAVORITOS_KEY);
     if (!datos) return [];
