@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>StockVision - Extra</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="sv-header">
+        <h1>StockVision</h1>
+        <nav class="sv-nav">
+            <a href="index.html">Resumen</a>
+            <a href="detalle.html">Detalle</a>
+            <a href="extra.html" class="activo">Extra</a>
+        </nav>
+    </header>
+
+    <main class="sv-main">
+        <section class="sv-extra">
+            <h2>Favoritos</h2>
+            <p>
+                En esta sección se muestran las camisetas marcadas como favoritas en la página de resumen.
+                Esta funcionalidad extra permite al usuario tener rápidamente localizados los productos
+                más importantes o prioritarios dentro del inventario.
+            </p>
+
+            <!-- Contenedor donde se pintarán los productos favoritos -->
+            <div id="favoritos-contenedor" class="sv-grid-productos">
+                <!-- JS rellenará esta sección leyendo los favoritos de localStorage -->
+            </div>
+
+            <!-- (Opcional) mensaje cuando no haya favoritos -->
+            <p id="mensaje-sin-favoritos" class="sv-mensaje-info" style="display:none;">
+                Todavía no hay camisetas marcadas como favoritas.
+            </p>
+        </section>
+    </main>
+
+    <footer class="sv-footer">
+        <p>StockVision &copy; 2025</p>
+    </footer>
+
+    <!-- jQuery (si lo usamos) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Lógica de la página extra -->
+    <script src="js/extra.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>StockVision - Resumen</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="sv-header">
+        <div class="sv-logo">
+        <img src="fotos/logo-stockvision.png" alt="Logo StockVision">
+        
+    </div>
+        <nav class="sv-nav">
+            <a href="index.html">Resumen</a>
+            <a href="detalle.html">Detalle</a>
+            <a href="extra.html">Extra</a>
+        </nav>
+    </header>
+
+    <main class="sv-main">
+        <!-- KPIs generales -->
+        <section id="kpi-section" class="sv-kpis">
+            <!-- Tarjetas de KPIs: total productos, por liga, etc. -->
+        </section>
+
+        <!-- Filtros básicos en la página principal paraa mejorar la navegación -->
+        <section id="filtros-section" class="sv-filtros">
+            <h2>Filtros</h2>
+            <div class="sv-filtros-contenido">
+                <label for="filtro-liga">Liga:</label>
+                <select id="filtro-liga">
+                    <option value="todas">Todas</option>
+                    <option value="LaLiga">LaLiga</option>
+                    <option value="Premier League">Premier League</option>
+                    <option value="Serie A">Serie A</option>
+                </select>
+
+                <label for="orden-precio">Ordenar por precio:</label>
+                <select id="orden-precio">
+                    <option value="ninguno">Sin ordenar</option>
+                    <option value="asc">Más barato primero</option>
+                    <option value="desc">Más caro primero</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Lista / ranking de camisetas -->
+        <section id="lista-productos" class="sv-lista">
+            <h2>Resumen de stock</h2>
+            <div id="productos-contenedor" class="sv-grid-productos">
+                <!-- Aquí JS pintará las tarjetas de cada camiseta -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="sv-footer">
+        StockVision © 2025 · Desarrollado por <strong>Asier Soto</strong> · v1.0
+    </footer>
+
+
+    <!-- jQuery (si quieres usarlo) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Lógica de la página de resumen -->
+    <script src="js/resumen.js"></script>
+</body>
+</html>

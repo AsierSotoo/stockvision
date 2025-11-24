@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "equipo": "Real Madrid 25/26",
+    "jugador": "Bellingham",
+    "precio": 28,
+    "stock": 4,
+    "liga": "LaLiga",
+    "tallas": ["S", "M", "L", "XL"],
+    "popularidad": 94,
+    "imagen": "fotos/real madrid.jpg",
+    "descripcion": "Camiseta oficial del Real Madrid 25/26 con diseño moderno en blanco y detalles dorados."
+  },
+  {
+    "id": 2,
+    "equipo": "FC Barcelona 25/26",
+    "jugador": "Pedri",
+    "precio": 28,
+    "stock": 6,
+    "liga": "LaLiga",
+    "tallas": ["M", "L", "XL"],
+    "popularidad": 90,
+    "imagen": "fotos/barsa.jpg",
+    "descripcion": "Camiseta del Barça 25/26 con el nuevo diseño blaugrana renovado."
+  },
+  {
+    "id": 3,
+    "equipo": "Athletic Club 25/26",
+    "jugador": "Sancet",
+    "precio": 24,
+    "stock": 5,
+    "liga": "LaLiga",
+    "tallas": ["S", "M", "L"],
+    "popularidad": 77,
+    "imagen": "fotos/atletic.jpg",
+    "descripcion": "Camiseta rojiblanca del Athletic Club temporada 25/26."
+  },
+  {
+    "id": 4,
+    "equipo": "Atlético de Madrid 25/26",
+    "jugador": "Griezmann",
+    "precio": 28,
+    "stock": 3,
+    "liga": "LaLiga",
+    "tallas": ["S", "M", "L", "XL"],
+    "popularidad": 89,
+    "imagen": "fotos/atletico.jpg",
+    "descripcion": "Camiseta del Atlético de Madrid 25/26 con franjas rojiblancas renovadas."
+  },
+  {
+    "id": 5,
+    "equipo": "Real Oviedo 25/26",
+    "jugador": "Masca",
+    "precio": 26,
+    "stock": 5,
+    "liga": "LaLiga",
+    "tallas": ["S", "M", "L"],
+    "popularidad": 84,
+    "imagen": "fotos/oviedo.jpg",
+    "descripcion": "Camiseta azul del Real Oviedo 25/26."
+  },
+  {
+    "id": 6,
+    "equipo": "Sevilla FC 25/26",
+    "jugador": "En-Nesyri",
+    "precio": 25,
+    "stock": 4,
+    "liga": "LaLiga",
+    "tallas": ["M", "L"],
+    "popularidad": 72,
+    "imagen": "fotos/sevilla.jpg",
+    "descripcion": "Camiseta blanca del Sevilla 25/26 con detalles rojos."
+  },
+
+  {
+    "id": 7,
+    "equipo": "Manchester City 25/26",
+    "jugador": "Haaland",
+    "precio": 32,
+    "stock": 3,
+    "liga": "Premier League",
+    "tallas": ["M", "L", "XL"],
+    "popularidad": 97,
+    "imagen": "fotos/city.jpg",
+    "descripcion": "Camiseta celeste del City 25/26 con detalles en blanco."
+  },
+  {
+    "id": 8,
+    "equipo": "Liverpool 25/26",
+    "jugador": "Salah",
+    "precio": 28,
+    "stock": 5,
+    "liga": "Premier League",
+    "tallas": ["M", "L", "XL"],
+    "popularidad": 91,
+    "imagen": "fotos/liverpool.jpg",
+    "descripcion": "Camiseta roja del Liverpool temporada 25/26."
+  },
+  {
+    "id": 9,
+    "equipo": "Manchester United 25/26",
+    "jugador": "Bruno Fernandes",
+    "precio": 29,
+    "stock": 4,
+    "liga": "Premier League",
+    "tallas": ["S", "M", "L"],
+    "popularidad": 86,
+    "imagen": "fotos/united.jpg",
+    "descripcion": "Camiseta roja clásica del Manchester United 25/26."
+  },
+  {
+    "id": 10,
+    "equipo": "Arsenal 25/26",
+    "jugador": "Saka",
+    "precio": 28,
+    "stock": 6,
+    "liga": "Premier League",
+    "tallas": ["S", "M", "L"],
+    "popularidad": 88,
+    "imagen": "fotos/arsenal.jpg",
+    "descripcion": "Camiseta del Arsenal con detalles dorados en el diseño 25/26."
+  },
+  {
+    "id": 11,
+    "equipo": "Chelsea 25/26",
+    "jugador": "Nkunku",
+    "precio": 27,
+    "stock": 5,
+    "liga": "Premier League",
+    "tallas": ["M", "L", "XL"],
+    "popularidad": 79,
+    "imagen": "fotos/chelsea.jpg",
+    "descripcion": "Camiseta azul del Chelsea 25/26."
+  },
+
+  {
+    "id": 12,
+    "equipo": "Inter de Milán 25/26",
+    "jugador": "Lautaro Martínez",
+    "precio": 28,
+    "stock": 7,
+    "liga": "Serie A",
+    "tallas": ["M", "L", "XL"],
+    "popularidad": 82,
+    "imagen": "fotos/inter.jpg",
+    "descripcion": "Camiseta azul y negra del Inter 25/26."
+  },
+  {
+    "id": 13,
+    "equipo": "AC Milan 25/26",
+    "jugador": "Leao",
+    "precio": 28,
+    "stock": 5,
+    "liga": "Serie A",
+    "tallas": ["S", "M", "L"],
+    "popularidad": 90,
+    "imagen": "fotos/milan.jpg",
+    "descripcion": "Camiseta rojinegra del AC Milan temporada 25/26."
+  },
+  {
+    "id": 14,
+    "equipo": "Juventus 25/26",
+    "jugador": "Vlahovic",
+    "precio": 27,
+    "stock": 4,
+    "liga": "Serie A",
+    "tallas": ["S", "M", "L"],
+    "popularidad": 80,
+    "imagen": "fotos/juventus.jpg",
+    "descripcion": "Camiseta a rayas de la Juventus 25/26."
+  },
+  {
+    "id": 15,
+    "equipo": "Roma 25/26",
+    "jugador": "Dybala",
+    "precio": 26,
+    "stock": 3,
+    "liga": "Serie A",
+    "tallas": ["M", "L"],
+    "popularidad": 83,
+    "imagen": "fotos/roma.jpg",
+    "descripcion": "Camiseta burdeos de la Roma 25/26."
+  },
+
+  {
+    "id": 16,
+    "equipo": "Bayern Munich 25/26",
+    "jugador": "Kane",
+    "precio": 30,
+    "stock": 8,
+    "liga": "Bundesliga",
+    "tallas": ["S", "M", "L", "XL"],
+    "popularidad": 91,
+    "imagen": "fotos/bayer.jpg",
+    "descripcion": "Camiseta roja del Bayern Munich 25/26."
+  },
+  {
+    "id": 17,
+    "equipo": "Borussia Dortmund 25/26",
+    "jugador": "Reus",
+    "precio": 27,
+    "stock": 4,
+    "liga": "Bundesliga",
+    "tallas": ["M", "L"],
+    "popularidad": 84,
+    "imagen": "fotos/dortmund.jpg",
+    "descripcion": "Camiseta amarilla del Dortmund 25/26."
+  },
+
+  {
+    "id": 18,
+    "equipo": "PSG 25/26",
+    "jugador": "Dembele",
+    "precio": 32,
+    "stock": 6,
+    "liga": "Ligue 1",
+    "tallas": ["M", "L", "XL"],
+    "popularidad": 93,
+    "imagen": "fotos/psg.jpg",
+    "descripcion": "Camiseta del Paris Saint-Germain 25/26 con diseño elegante."
+  },
+  {
+    "id": 19,
+    "equipo": "Olympique de Marsella 25/26",
+    "jugador": "Aubameyang",
+    "precio": 26,
+    "stock": 5,
+    "liga": "Ligue 1",
+    "tallas": ["S", "M", "L"],
+    "popularidad": 78,
+    "imagen": "fotos/marsella.jpg",
+    "descripcion": "Camiseta blanca del OM temporada 25/26."
+  },
+
+  {
+    "id": 20,
+    "equipo": "Ajax 25/26",
+    "jugador": "Bergwijn",
+    "precio": 25,
+    "stock": 4,
+    "liga": "Eredivisie",
+    "tallas": ["S", "M", "L"],
+    "popularidad": 81,
+    "imagen": "fotos/ajax.jpg",
+    "descripcion": "Camiseta vertical del Ajax 25/26."
+  }
+]

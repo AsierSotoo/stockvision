@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>StockVision - Detalle</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="sv-header">
+        <h1>StockVision</h1>
+        <nav class="sv-nav">
+            <a href="index.html">Resumen</a>
+            <a href="detalle.html" class="activo">Detalle</a>
+            <a href="extra.html">Extra</a>
+        </nav>
+    </header>
+
+    <main class="sv-main">
+        <section id="detalle-producto" class="sv-detalle">
+            <!-- Contenido principal del producto -->
+            <div class="sv-detalle-superior">
+                <div class="sv-detalle-imagen">
+                    <!-- Imagen de la camiseta -->
+                    <img id="detalle-imagen" src="" alt="Camiseta seleccionada">
+                </div>
+                <div class="sv-detalle-info">
+                    <h2 id="detalle-equipo">Equipo</h2>
+                    <p><strong>Jugador:</strong> <span id="detalle-jugador"></span></p>
+                    <p><strong>Lig a:</strong> <span id="detalle-liga"></span></p>
+                    <p><strong>Precio:</strong> <span id="detalle-precio"></span> €</p>
+                    <p><strong>Stock:</strong> <span id="detalle-stock"></span> uds</p>
+                    <p><strong>Tallas:</strong> <span id="detalle-tallas"></span></p>
+                </div>
+            </div>
+
+            <!-- Descripción -->
+            <div class="sv-detalle-descripcion">
+                <h3>Descripción</h3>
+                <p id="detalle-descripcion"></p>
+            </div>
+
+            <!-- Elemento interactivo -->
+            <section class="sv-detalle-interactivo">
+                <h3>Visualización interactiva</h3>
+                <!-- Aquí haremos, por ejemplo, un gráfico de barras del stock
+                     o una comparativa de precio respecto al resto del catálogo -->
+                <div id="grafico-stock" class="sv-grafico-stock">
+                    <!-- JS generará barras o elementos interactivos -->
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer class="sv-footer">
+        <p>StockVision &copy; 2025</p>
+    </footer>
+
+    <!-- jQuery (si lo usamos) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Lógica de la página de detalle -->
+    <script src="js/detalle.js"></script>
+</body>
+</html>
