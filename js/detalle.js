@@ -29,9 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
-// ----------------------
-// Utilidades
-// ----------------------
+
 function obtenerIdDesdeURL() {
     const params = new URLSearchParams(window.location.search);
     const idStr = params.get('id');
@@ -46,9 +44,6 @@ function mostrarMensajeError(mensaje) {
     }
 }
 
-// ----------------------
-// Pintar detalle
-// ----------------------
 function pintarDetalle(producto) {
     const img = document.getElementById('detalle-imagen');
     const equipo = document.getElementById('detalle-equipo');
@@ -70,9 +65,7 @@ function pintarDetalle(producto) {
     if (descripcion) descripcion.textContent = producto.descripcion;
 }
 
-// ----------------------
-// Elemento interactivo: gráfico de stock
-// ----------------------
+
 function pintarGraficoStock(producto, productos) {
     const contenedor = document.getElementById('grafico-stock');
     if (!contenedor) return;
