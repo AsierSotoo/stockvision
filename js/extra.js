@@ -70,7 +70,6 @@ function pintarFavoritos(lista, contenedor) {
         contenedor.appendChild(tarjeta);
     });
 
-    // botón ver detalle
     const botonesDetalle = contenedor.querySelectorAll('.sv-btn-detalle');
     botonesDetalle.forEach(boton => {
         boton.addEventListener('click', (e) => {
